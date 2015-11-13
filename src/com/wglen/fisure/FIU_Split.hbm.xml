@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Oct 29, 2015 12:25:05 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="com.wglen.fisure.FIU_Split" table="FIU_SPLIT">
+        <id name="uid" type="int">
+            <column name="U_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="exid" type="int">
+            <column name="EXID" />
+        </property>
+        <property name="splittedTotal" type="float">
+            <column name="SPLITTEDTOTAL" />
+        </property>
+    </class>
+</hibernate-mapping>
